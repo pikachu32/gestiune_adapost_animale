@@ -1,0 +1,75 @@
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\TemaBD.exe.config
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\TemaBD.exe
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\TemaBD.pdb
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.csproj.AssemblyReference.cache
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.csproj.SuggestedBindingRedirects.cache
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.AdoptersForm.resources
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.MainMenuForm.resources
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.Properties.Resources.resources
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.csproj.GenerateResource.cache
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.csproj.CoreCompileInputs.cache
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.exe
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.pdb
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.AnimalsForm.resources
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.TasksForm.resources
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.VetVisitsForm.resources
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Buffers.dll
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Formats.Asn1.dll
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Memory.dll
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Text.Json.dll
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.ValueTuple.dll
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Buffers.xml
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Formats.Asn1.xml
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Memory.xml
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Text.Json.xml
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\bin\Debug\System.ValueTuple.xml
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.csproj.CopyComplete
+C:\Users\iasmi\Desktop\facultate\Anul III\semestrul 1\BD\Tema de casa\TemaBD\TemaBD\obj\Debug\TemaBD.StaffManagement.resources
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\TemaBD.exe.config
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\TemaBD.exe
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\TemaBD.pdb
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Buffers.dll
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Formats.Asn1.dll
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Memory.dll
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Text.Json.dll
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.ValueTuple.dll
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Buffers.xml
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Formats.Asn1.xml
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Memory.xml
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Text.Json.xml
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\bin\Debug\System.ValueTuple.xml
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.csproj.AssemblyReference.cache
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.AdoptersForm.resources
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.AnimalsForm.resources
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.MainMenuForm.resources
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.Properties.Resources.resources
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.StaffManagement.resources
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.TasksForm.resources
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.VetVisitsForm.resources
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.csproj.GenerateResource.cache
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.csproj.CoreCompileInputs.cache
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.csproj.Up2Date
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.exe
+C:\Users\rex\Git\Gestiune_adapost_animale\Aplicatie\TemaBD\obj\Debug\TemaBD.pdb
