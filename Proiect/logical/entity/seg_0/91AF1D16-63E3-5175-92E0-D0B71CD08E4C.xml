@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91AF1D16-63E3-5175-92E0-D0B71CD08E4C" name="Sarcini_Angajati">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:45:01 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Sarcina" id="52863C56-5DDC-A25B-89E1-5015BFA1A134">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:45:59 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descriere_Sarcina" id="A50D0F46-F1DC-8EBF-7DD8-FE47389142BF">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:46:53 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_Alocarii" id="7D77CD79-F7ED-BDBB-8CF8-E59F1B0786F0">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:47:16 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Deadline" id="4D412B63-55C6-1FF2-F43C-4D18469CEEA2">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:48:06 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Angajat" id="F9505F2B-C02B-C45F-5289-CC9E2873A40B">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 16:50:00 UTC</createdTime>
+<generatorID>3C3A41FF-A59E-E265-9CB6-E537A859028F</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<referedAttribute>BCD7AA67-8BAE-3F76-FA54-D1804B71F8DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="797D4B0E-2B98-BC10-3B2A-0E6E760BE4B5" name="Sarcini_Angajati_PK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:46:19 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52863C56-5DDC-A25B-89E1-5015BFA1A134</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

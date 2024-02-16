@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCA18782-1C0C-5D65-5C14-C3C77126DC1C" name="Personal_Adapost">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>2CEE8336-1CD6-81AF-0A0E-913BC6D71027</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Angajat" id="19854CF9-0FD1-F8BA-4A69-DE709423FA56">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>BCD7AA67-8BAE-3F76-FA54-D1804B71F8DB</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="Nume_Angajat" id="0DCB43EC-3762-D784-D77E-18D36284490C">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>CA0B024B-FFBB-8665-1686-4386413E6A9C</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Personal_Nume_Angajat_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Nume_Angajat, &apos;[a-zA-Z -]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Functie" id="B5797F73-A8F1-B81D-1D6D-18D4E4183D25">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>334A09CA-2CB2-1A78-F15B-E4667AD3FAC8</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Personal_Adapost_Functie_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Functie, &apos;[a-zA-Z -]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefon" id="C2752993-C4B3-F402-0207-FD8818AA73C0">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>7309C593-1B57-BF13-4A71-DC58E36EF488</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Personal_Adapost_Telefon_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Telefon, &apos;[0-9 ()-+]&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D9D7F87-AC16-C2B1-12D4-E05E5B8E8673" name="Personal_Adapost_PK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>ED03E4DD-A7E3-2F66-2BB9-50E58E9AED81</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19854CF9-0FD1-F8BA-4A69-DE709423FA56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="663E8403-C2B4-2B76-9A0A-5764B1EC3D4A" name="Personal_Nume_UN">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>E0BF46AD-065A-2F57-DDA0-BE14953F3079</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DCB43EC-3762-D784-D77E-18D36284490C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31456F56-7CC1-5C55-7670-011123D0E7C2" name="Personal_Adapost_Telefon_UN">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>AAEC4F07-414D-739C-5DA4-3A918166577B</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2752993-C4B3-F402-0207-FD8818AA73C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

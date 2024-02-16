@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Adoptatori_Animale_FK" directorySegmentName="seg_0" id="2FEF582B-FAAA-2F7F-52FB-E4EA72312E06">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 16:47:59 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<sourcePk>2ACD6D8D-769F-B56F-367B-BF9A5ACC1513</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>este adoptat de</nameOnSource>
+<nameOnTarget>adopta</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1979DF70-3261-BAF0-2542-081EA9C323C4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>03E0E843-8E56-DBED-BD24-0818A917A104</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

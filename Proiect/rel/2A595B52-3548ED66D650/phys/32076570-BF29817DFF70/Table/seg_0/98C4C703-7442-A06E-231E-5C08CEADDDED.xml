@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Vizite_Veterinare" directorySegmentName="seg_0" id="98C4C703-7442-A06E-231E-5C08CEADDDED">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Veterinari_ID_Veterinar" id="0296256A-AEE3-FEEF-B728-3DC29D3635C4">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Tratament" id="282E60F6-4A31-1214-5BE3-B401E43825E0">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Animale_ID_Animal" id="2DBB6E54-D005-0936-462F-FF151DB27D6E">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Data_Vizitei" id="42EC16C4-134A-2F22-6F06-F509D57F100A">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Diagnostic" id="5C0FECCD-9333-8197-2D37-98C1D8D5C27D">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Animal" id="87CC2327-BF65-02E1-7628-6901A86CBACE">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Vizita" id="9E2834D2-FC92-39BC-01CD-F227201BEF6D">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Veterinar" id="C8C4B51D-C992-2AB3-9282-13B940B0D343">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Vizite_Veterinare_Animale_FK" id="0EE8EBDE-FFBB-C903-96AA-70ECF1BC6763">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Vizite_Veterinare_Veterinari_FK" id="993E28F3-9365-B070-FFE0-C1EBBAA9428A">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Vizite_Veterinare_PK" id="345AF73D-5E8E-208E-B6CE-B29AB271BA90">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

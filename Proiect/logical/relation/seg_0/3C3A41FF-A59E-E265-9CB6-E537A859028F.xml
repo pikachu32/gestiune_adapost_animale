@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Personal_Sarcinii_FK" directorySegmentName="seg_0" id="3C3A41FF-A59E-E265-9CB6-E537A859028F">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 16:50:00 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<sourcePk>ED03E4DD-A7E3-2F66-2BB9-50E58E9AED81</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>are</nameOnSource>
+<nameOnTarget>este a</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2CEE8336-1CD6-81AF-0A0E-913BC6D71027</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>91AF1D16-63E3-5175-92E0-D0B71CD08E4C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

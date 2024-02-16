@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1979DF70-3261-BAF0-2542-081EA9C323C4" name="Animale">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:23:54 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Animal" id="7E819BE0-0AEB-91FF-F20D-44E4E79B159B">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:25:53 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nume_Animal" id="5EB047EE-611C-CEF1-D27D-788E1C396435">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:27:20 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<constraintName>Animale_Nume_Animal_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Nume_Animal, &apos;^[a-zA-Z ]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Specie" id="15D39228-37CB-FF77-7103-7AEA43DBF4F3">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:32:32 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<constraintName>Animale_Specie_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Specie, &apos;[a-zA-Z ]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Varsta" id="CA33DD79-D67E-90FA-C5D0-A54C282CC45D">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 10:42:22 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<constraintName>Animale_Varsta_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="Varsta&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sex" id="0318151D-0897-E650-473F-93C4F5748E14">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:32:52 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<constraintName>Animale_Sex_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<listOfValues>
+<valueDef value="feminin" description=""/>
+<valueDef value="masculin" description=""/>
+</listOfValues>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stare_Animal" id="F4118C4A-CBB5-5D2F-1DE5-84B555EC1BAC">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:33:20 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Angajat" id="E4A8D0BF-62D9-1E33-01F0-3C874A9FF107">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 16:36:31 UTC</createdTime>
+<generatorID>AC133B51-7D4C-4748-D419-1ABFC4F1C1B3</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<referedAttribute>BCD7AA67-8BAE-3F76-FA54-D1804B71F8DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2ACD6D8D-769F-B56F-367B-BF9A5ACC1513" name="Animale_PK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:26:56 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7E819BE0-0AEB-91FF-F20D-44E4E79B159B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D6D75062-ADD1-8148-2B04-314C56D57922" name="Animale_Nume_Animal_UN">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 10:11:52 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="false"/>
+</engineerTo>
+<newElementsIDs>5EB047EE-611C-CEF1-D27D-788E1C396435</newElementsIDs>
+<usedAttributes>
+<attributeRef>5EB047EE-611C-CEF1-D27D-788E1C396435</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

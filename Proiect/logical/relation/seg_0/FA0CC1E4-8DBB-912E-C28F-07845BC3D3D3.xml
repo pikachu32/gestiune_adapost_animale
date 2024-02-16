@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vizite_Veterinar" directorySegmentName="seg_0" id="FA0CC1E4-8DBB-912E-C28F-07845BC3D3D3">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:57:54 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1979DF70-3261-BAF0-2542-081EA9C323C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AAAE8F9F-292D-503A-58EF-EF8691A15A10</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="ID_Vizita" id="DE058892-F29D-791B-405C-D531AACD0522">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 09:00:29 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Data_Vizitei" id="3B8B3BB2-178E-887D-7FDA-AF81CDE90968">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 09:01:24 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Diagnostic" id="274F1200-1CA8-0A4E-FFE9-7A6ECF604EE3">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 09:01:43 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Tratament" id="82EBC5C4-A200-604E-C431-5114B0E3CFE6">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 09:02:11 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39706862-C544-64E3-E74B-71B558A7FC0F" name="Veterinari">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>AAAE8F9F-292D-503A-58EF-EF8691A15A10</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Veterinar" id="6B9A5BE5-466C-A6B8-E577-B880CA7CE88F">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>2AF1D45B-230B-567D-0F1D-D7ADFD681408</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="Nume_Veterinar" id="54CA9B43-E2AB-0194-FFB0-E0FBB1367528">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>A990E53B-49A5-D129-41BB-3FE29618A1D1</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Veterinari_Nume_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Nume_Veterinar, &apos;[a-zA-Z -]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Specializare" id="D671DB96-6284-CD00-F010-58EF12816B67">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>9B2891F5-3972-AD7B-317A-47838E0AB6F9</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Veterinari_Specializare_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Specializare, &apos;[a-zA-Z -]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Experienta" id="DF5168F7-6FD2-95D6-0988-EF3B44C4FEF4">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>E0064A72-FC90-B1DE-8861-5DAF0458C1D8</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Veterinari_Experienta_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Experienta, &apos;[a-zA-Z 0-9&gt;&lt;~]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefon" id="5A1C7EDE-4AE3-0966-E009-8AF42930E59B">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>1E5FB627-8BBD-7F67-B134-872B1D727C3B</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Veterinari_Telefon_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Telefon, &apos;[0-9 ()-+]&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F46A491E-C458-02DC-63D4-991C0779C02E" name="Veterinari_PK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>809B9EC7-7DD1-40CA-DA1A-FEDF88D4FF9C</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B9A5BE5-466C-A6B8-E577-B880CA7CE88F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFA07613-97E8-9977-77E1-3463E92FB206" name="Veterinari_Nume_Veterinar_UN">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>B2279BC3-8DAB-2F9D-E42D-B02B218928FC</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54CA9B43-E2AB-0194-FFB0-E0FBB1367528"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3CD6DC8-222A-02F9-DA6E-62E747A17303" name="Veterinari_Telefon_UN">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>BDED29FF-A5E1-9E1A-502F-9271F9E73A7E</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A1C7EDE-4AE3-0966-E009-8AF42930E59B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

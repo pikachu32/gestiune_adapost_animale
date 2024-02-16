@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58D5F462-2B33-DA26-6F81-4789D2D347C4" name="Animale">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>1979DF70-3261-BAF0-2542-081EA9C323C4</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Animal" id="6BBF0CB4-FFC1-42C6-5774-F9052D0E175D">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>7E819BE0-0AEB-91FF-F20D-44E4E79B159B</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="Nume_Animal" id="B68B1130-2BBF-25AC-E50C-C9DF9D81A8E0">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>5EB047EE-611C-CEF1-D27D-788E1C396435</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Animale_Nume_Animal_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Nume_Animal, &apos;^[a-zA-Z ]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Specie" id="5C4CAB7E-8253-5A47-4A6C-57321B8510BB">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>15D39228-37CB-FF77-7103-7AEA43DBF4F3</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Animale_Specie_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Specie, &apos;[a-zA-Z ]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Varsta" id="357086E2-A193-BA04-2A83-3E3A77F96DE3">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>CA33DD79-D67E-90FA-C5D0-A54C282CC45D</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Animale_Varsta_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="Varsta&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sex" id="E731E5D9-9BDD-3209-8EF7-5C4BD80F2B6B">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>0318151D-0897-E650-473F-93C4F5748E14</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Animale_Sex_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<listOfValues>
+<valueDef value="feminin" description=""/>
+<valueDef value="masculin" description=""/>
+</listOfValues>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stare_Animal" id="AD95D799-E17A-FBCB-121B-5F3127ED6D8A">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>F4118C4A-CBB5-5D2F-1DE5-84B555EC1BAC</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Angajat" id="C3986B35-3DFC-9761-1AF6-C78BB2D90E6B">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>E4A8D0BF-62D9-1E33-01F0-3C874A9FF107</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDF62479-70A5-47E7-CCD8-E2E5DC40D93D" referredColumn="19854CF9-0FD1-F8BA-4A69-DE709423FA56"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE7CF3E3-680E-01B5-042B-FB2E118DB369" name="Animale_PK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>2ACD6D8D-769F-B56F-367B-BF9A5ACC1513</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BBF0CB4-FFC1-42C6-5774-F9052D0E175D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5A591A5-1865-F8B8-C847-4876424F16AE" name="Animale_Nume_Animal_UN">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>D6D75062-ADD1-8148-2B04-314C56D57922</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B68B1130-2BBF-25AC-E50C-C9DF9D81A8E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="976165A9-1A77-E002-048A-F837450D8A50" name="Personal_Adapost_Animale_FK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>AC133B51-7D4C-4748-D419-1ABFC4F1C1B3</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3986B35-3DFC-9761-1AF6-C78BB2D90E6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

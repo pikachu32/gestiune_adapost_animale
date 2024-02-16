@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Personal_Adapost_Animale_FK" directorySegmentName="seg_0" id="AC133B51-7D4C-4748-D419-1ABFC4F1C1B3">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 16:36:31 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<sourcePk>ED03E4DD-A7E3-2F66-2BB9-50E58E9AED81</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>ingrijeste</nameOnSource>
+<nameOnTarget>este ingrijit de</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2CEE8336-1CD6-81AF-0A0E-913BC6D71027</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1979DF70-3261-BAF0-2542-081EA9C323C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

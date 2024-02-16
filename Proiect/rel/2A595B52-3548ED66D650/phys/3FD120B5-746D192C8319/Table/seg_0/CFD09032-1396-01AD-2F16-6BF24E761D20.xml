@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Sarcini_Angajati" directorySegmentName="seg_0" id="CFD09032-1396-01AD-2F16-6BF24E761D20">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:06:46 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Deadline" id="12B3FF37-603A-8A33-BDFD-D304ED1A32AC">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:06:46 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Sarcina" id="4F25574C-15AD-32F5-24A7-ABDBB33E5120">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:06:46 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="Descriere_Sarcina" id="A31716AA-4D52-BA37-FC4A-D35A8E1A7B58">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:06:46 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Angajat" id="D6E3B0EC-9E21-EDFE-0DBF-96C25A8AB2DF">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:06:46 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Data_Alocarii" id="F606D04C-A19A-807A-8ACD-E07CA5FC6B3B">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:06:46 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Personal_Adapost_Sarcini_Angajati_FK" id="FEDAF7FF-EE1F-8812-3B34-D854B079BCB9">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:06:46 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Sarcini_Angajati_PK" id="939AB472-6E62-8CC7-2EC4-840BD505FE13">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:06:46 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

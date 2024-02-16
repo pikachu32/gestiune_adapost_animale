@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAAE8F9F-292D-503A-58EF-EF8691A15A10" name="Veterinari">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:42:10 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Veterinar" id="2AF1D45B-230B-567D-0F1D-D7ADFD681408">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:42:18 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nume_Veterinar" id="A990E53B-49A5-D129-41BB-3FE29618A1D1">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:42:35 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<constraintName>Veterinari_Nume_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Nume_Veterinar, &apos;[a-zA-Z -]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Specializare" id="9B2891F5-3972-AD7B-317A-47838E0AB6F9">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:42:54 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<constraintName>Veterinari_Specializare_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Specializare, &apos;[a-zA-Z -]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Experienta" id="E0064A72-FC90-B1DE-8861-5DAF0458C1D8">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:43:17 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<constraintName>Veterinari_Experienta_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Experienta, &apos;[a-zA-Z 0-9&gt;&lt;~]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefon" id="1E5FB627-8BBD-7F67-B134-872B1D727C3B">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:44:18 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="true"/>
+</engineerTo>
+<constraintName>Veterinari_Telefon_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Telefon, &apos;[0-9 ()-+]&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="809B9EC7-7DD1-40CA-DA1A-FEDF88D4FF9C" name="Veterinari_PK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 08:42:34 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2AF1D45B-230B-567D-0F1D-D7ADFD681408</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="B2279BC3-8DAB-2F9D-E42D-B02B218928FC" name="Veterinari_Nume_Veterinar_UN">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-03 10:49:29 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="false"/>
+</engineerTo>
+<newElementsIDs>A990E53B-49A5-D129-41BB-3FE29618A1D1</newElementsIDs>
+<usedAttributes>
+<attributeRef>A990E53B-49A5-D129-41BB-3FE29618A1D1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BDED29FF-A5E1-9E1A-502F-9271F9E73A7E" name="Veterinari_Telefon_UN">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-04 11:07:10 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2A595B52-2F68-EBCF-E639-3548ED66D650" value="false"/>
+</engineerTo>
+<newElementsIDs>1E5FB627-8BBD-7F67-B134-872B1D727C3B</newElementsIDs>
+<usedAttributes>
+<attributeRef>1E5FB627-8BBD-7F67-B134-872B1D727C3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

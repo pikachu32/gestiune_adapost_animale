@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8BD0DD5C-EFE4-3142-44F1-B010B49C1DB3" containerWithKeyObject="3E55C524-2C9A-D713-7B4D-C68D5090D5EA" localFKIndex="5BFF886C-7C1A-7304-E90C-E89C0BE01291" name="Adoptatori_Animale_FK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>2FEF582B-FAAA-2F7F-52FB-E4EA72312E06</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<referredTableLongName>Animale</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58D5F462-2B33-DA26-6F81-4789D2D347C4</referredTableID>
+<keyObject>FE7CF3E3-680E-01B5-042B-FB2E118DB369</keyObject>
+<referredKeyID>FE7CF3E3-680E-01B5-042B-FB2E118DB369</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Animal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Animale" directorySegmentName="seg_0" id="58D5F462-2B33-DA26-6F81-4789D2D347C4">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Varsta" id="357086E2-A193-BA04-2A83-3E3A77F96DE3">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Specie" id="5C4CAB7E-8253-5A47-4A6C-57321B8510BB">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Animal" id="6BBF0CB4-FFC1-42C6-5774-F9052D0E175D">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Stare_Animal" id="AD95D799-E17A-FBCB-121B-5F3127ED6D8A">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Nume_Animal" id="B68B1130-2BBF-25AC-E50C-C9DF9D81A8E0">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Angajat" id="C3986B35-3DFC-9761-1AF6-C78BB2D90E6B">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Sex" id="E731E5D9-9BDD-3209-8EF7-5C4BD80F2B6B">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Personal_Adapost_Animale_FK" id="976165A9-1A77-E002-048A-F837450D8A50">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Animale_PK" id="FE7CF3E3-680E-01B5-042B-FB2E118DB369">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Animale_Nume_Animal_UN" id="E5A591A5-1865-F8B8-C847-4876424F16AE">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

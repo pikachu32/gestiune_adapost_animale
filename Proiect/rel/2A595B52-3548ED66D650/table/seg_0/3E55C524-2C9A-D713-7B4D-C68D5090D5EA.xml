@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E55C524-2C9A-D713-7B4D-C68D5090D5EA" name="Adoptatori">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>03E0E843-8E56-DBED-BD24-0818A917A104</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Adoptator" id="D3417E8F-79B5-D43B-F6C5-C039A06425DC">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>B29F63D9-6AD9-C016-392C-070D6896E1DA</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="Nume_Adoptator" id="F90048A1-AB55-56D4-7A56-D0D83B9B8220">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>A833EC33-D545-A721-1635-8046CC7FBA04</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Adoptatori_Nume_Adoptator_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Nume_Adoptator, &apos;[a-zA-Z -]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="D1D935A3-377E-F132-8917-0CFDE1BDF86A">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>A9EA0CD8-F89E-F429-F8C6-8227266D8BC4</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Adoptatori_Adresa_CK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Adresa, &apos;[a-zA-Z0-9,. ]+$&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefon" id="C5680D9D-152F-7366-2982-6291C4404340">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>F582A89E-372D-0ECA-BA93-6A519E0B20BE</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<constraintName>Adoptatori_Telefon_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(Telefon, &apos;[0-9 ()-+]&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Animal" id="F056BBCD-FFAF-562D-1AD8-109F6AF3C25F">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>00DDADBC-40CA-9EE2-A56C-C0BD74DCBAD4</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BD0DD5C-EFE4-3142-44F1-B010B49C1DB3" referredColumn="6BBF0CB4-FFC1-42C6-5774-F9052D0E175D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9587C65-F547-7E7B-C28D-42AAE60335CD" name="Adoptatori_PK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>9925BE6C-C0BC-03FB-E776-DF8B7378876D</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3417E8F-79B5-D43B-F6C5-C039A06425DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1A36188-EC90-F4E2-8DD3-27CD8D9EED11" name="Adoptatori_Telefon_UN">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>026F7355-CF32-1CE5-61A4-98794AFCBCAF</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5680D9D-152F-7366-2982-6291C4404340"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C7715AD-B9DD-E227-4F33-B79769670246" name="Adoptatori_Nume_Tel_UN">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>95A19D9B-1B30-6C99-1632-760018022229</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F90048A1-AB55-56D4-7A56-D0D83B9B8220"/>
+<colUsage columnID="C5680D9D-152F-7366-2982-6291C4404340"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA78526D-CAA9-0D9E-3ABF-27EC315598BF" name="Adoptatori__IDX">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2FEF582B-FAAA-2F7F-52FB-E4EA72312E06</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F056BBCD-FFAF-562D-1AD8-109F6AF3C25F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BFF886C-7C1A-7304-E90C-E89C0BE01291" name="Adoptatori_Animale_FK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>2FEF582B-FAAA-2F7F-52FB-E4EA72312E06</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F056BBCD-FFAF-562D-1AD8-109F6AF3C25F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

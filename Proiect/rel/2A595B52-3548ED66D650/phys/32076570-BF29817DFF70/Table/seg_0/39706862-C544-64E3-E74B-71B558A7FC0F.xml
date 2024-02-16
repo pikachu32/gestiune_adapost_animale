@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Veterinari" directorySegmentName="seg_0" id="39706862-C544-64E3-E74B-71B558A7FC0F">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Nume_Veterinar" id="54CA9B43-E2AB-0194-FFB0-E0FBB1367528">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Telefon" id="5A1C7EDE-4AE3-0966-E009-8AF42930E59B">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_Veterinar" id="6B9A5BE5-466C-A6B8-E577-B880CA7CE88F">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Specializare" id="D671DB96-6284-CD00-F010-58EF12816B67">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Experienta" id="DF5168F7-6FD2-95D6-0988-EF3B44C4FEF4">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Veterinari_PK" id="F46A491E-C458-02DC-63D4-991C0779C02E">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Veterinari_Nume_Veterinar_UN" id="AFA07613-97E8-9977-77E1-3463E92FB206">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Veterinari_Telefon_UN" id="C3CD6DC8-222A-02F9-DA6E-62E747A17303">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:12:45 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

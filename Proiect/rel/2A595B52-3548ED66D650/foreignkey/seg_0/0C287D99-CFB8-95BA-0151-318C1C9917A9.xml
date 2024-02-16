@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C287D99-CFB8-95BA-0151-318C1C9917A9" containerWithKeyObject="98C4C703-7442-A06E-231E-5C08CEADDDED" localFKIndex="993E28F3-9365-B070-FFE0-C1EBBAA9428A" name="Vizite_Veterinar_Veterinari_FK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>FA0CC1E4-8DBB-912E-C28F-07845BC3D3D3</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<referredTableLongName>Veterinari</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>39706862-C544-64E3-E74B-71B558A7FC0F</referredTableID>
+<keyObject>F46A491E-C458-02DC-63D4-991C0779C02E</keyObject>
+<referredKeyID>F46A491E-C458-02DC-63D4-991C0779C02E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Veterinar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

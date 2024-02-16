@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98C4C703-7442-A06E-231E-5C08CEADDDED" name="Vizite_Veterinar">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Animale_ID_Animal" id="2DBB6E54-D005-0936-462F-FF151DB27D6E">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E0FFCA5-B878-5D43-9467-6C2D4B8EC3A1" referredColumn="6BBF0CB4-FFC1-42C6-5774-F9052D0E175D"/>
+</associations>
+</Column>
+<Column name="Veterinari_ID_Veterinar" id="0296256A-AEE3-FEEF-B728-3DC29D3635C4">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C287D99-CFB8-95BA-0151-318C1C9917A9" referredColumn="6B9A5BE5-466C-A6B8-E577-B880CA7CE88F"/>
+</associations>
+</Column>
+<Column name="ID_Vizita" id="9E2834D2-FC92-39BC-01CD-F227201BEF6D">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>DE058892-F29D-791B-405C-D531AACD0522</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Data_Vizitei" id="42EC16C4-134A-2F22-6F06-F509D57F100A">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>3B8B3BB2-178E-887D-7FDA-AF81CDE90968</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="Diagnostic" id="5C0FECCD-9333-8197-2D37-98C1D8D5C27D">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>274F1200-1CA8-0A4E-FFE9-7A6ECF604EE3</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="Tratament" id="282E60F6-4A31-1214-5BE3-B401E43825E0">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>82EBC5C4-A200-604E-C431-5114B0E3CFE6</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="345AF73D-5E8E-208E-B6CE-B29AB271BA90" name="Vizite_Veterinare_PK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<ownerDesignName>Proiect</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DBB6E54-D005-0936-462F-FF151DB27D6E"/>
+<colUsage columnID="0296256A-AEE3-FEEF-B728-3DC29D3635C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EE8EBDE-FFBB-C903-96AA-70ECF1BC6763" name="Vizite_Veterinare_Animale_FK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>FA0CC1E4-8DBB-912E-C28F-07845BC3D3D3</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DBB6E54-D005-0936-462F-FF151DB27D6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="993E28F3-9365-B070-FFE0-C1EBBAA9428A" name="Vizite_Veterinar_Veterinari_FK">
+<createdBy>iasmi</createdBy>
+<createdTime>2023-11-12 17:00:51 UTC</createdTime>
+<generatorID>FA0CC1E4-8DBB-912E-C28F-07845BC3D3D3</generatorID>
+<ownerDesignName>Proiect</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0296256A-AEE3-FEEF-B728-3DC29D3635C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
